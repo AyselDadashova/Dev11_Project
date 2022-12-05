@@ -1,0 +1,23 @@
+NewCar sedan = new NewCar();
+sedan.startCar('Sport','Infiniti');
+sedan.Accelerate(80);
+sedan.checkSpeed();
+sedan.brake(55);
+sedan.checkSpeed();
+sedan.Accelerate(10);
+sedan.checkSpeed();
+sedan.brake(40);
+sedan.checkSpeed();
+sedan.stopCar();
+
+NewCar sedan1 = new NewCar();
+sedan1.startCar('sedan','BMW');
+sedan1.Accelerate(80);
+sedan1.checkSpeed();
+sedan1.brake(55);
+sedan1.checkSpeed();
+sedan1.Accelerate(10);
+sedan1.checkSpeed();
+sedan1.brake(40);
+sedan1.checkSpeed();
+sedan1.stopCar();

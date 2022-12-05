@@ -1,0 +1,41 @@
+List<string>coloursList= new List<string>{'Red' , 'Yellow' , 'Purple' ,'Green', 'Black'};
+system.debug(coloursList);
+
+integer ListSize = coloursList.size();
+system.debug(ListSize);
+
+system.debug(coloursList.size());
+boolean red = coloursList.contains('Red');
+system.debug('Is color red available?' + red);
+
+string LastElem = coloursList.get(ListSize -1);
+system.debug(LastElem);
+
+string LastEle2 = coloursList.get(ListSize -1).toUpperCase();
+
+system.debug(coloursList.get(3).toUpperCase());
+
+List<String> colorCodesList = new List<String>{'#C3B003', '#C30F03', '#0A0100','#52BE04','#F5F6F5'};
+system.debug(colorCodesList);
+
+boolean colorM = coloursList.equals(colorCodesList);
+system.debug(colorM);
+
+
+List<string> NewList = new List<string>();
+NewList.addAll(coloursList);
+NewList.addAll(colorCodesList);
+system.debug('Whole color list: ' + NewList);
+
+
+
+
+
+
+
+
+
+
+
+
+
